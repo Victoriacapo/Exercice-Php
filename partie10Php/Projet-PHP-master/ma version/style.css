@@ -1,0 +1,32 @@
+.titre4{
+    color:orange;
+    text-align: center;
+}
+p[class="Devis"]{
+    color: red;
+    border: solid 1px black;
+    margin-top: 170px;
+    max-width: 523px;
+}
+.Contact{
+    list-style: none;
+    float: left;
+    border: solid 1px black;
+    padding-right: 10px;
+}
+
+div[class="container-fluid formContact"] {
+    background-color: black;
+    margin-top: 170px;
+}
+label{
+    color: white;
+}
+
+@media screen and (min-width: 1156px) and (max-width: 2000px) {
+    p[class="Devis"]{
+        margin-top: 0px;
+    }
+}
+
+
